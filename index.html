@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    <title>Disasters in FEMA Region IV</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <link
+        rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin="">
+    </script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <script type="text/javascript" src="lib/leaflet-providers.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link rel="stylesheet" src="css/style.css"/>
+
+    </head>
+
+    <body>
+        <header><output></output></header>
+
+        <section id="side-panel">
+            <h1>History of Disasters in FEMA Region IV, 1950 - 2019</h1>
+            <h4></h4>
+            <h2>The US Federal Emergency Management Agency (FEMA) allocates and deploys resources and assistance to communities in need after major disasters.</h2>
+            <h2>FEMA declared disasters categories contain both natural and man-made events including flooding, fire, and hurricanes.</h2>
+            <h2>This visualization focuses on the history of events in FEMA Region IV, which is an area of responsibility encompassing the Southeastern United States.</h2>
+            <h2>Declared disaster data available from <a href="https://www.fema.gov/openfema-dataset-disaster-declarations-summaries-v1">FEMA's open data initiative.</a></h2>
+            <div></div>
+            <h2>Project created by Dwight F., Stephanie B., &amp; Moe R. &#9400; 2019</h2>
+        </section>
+
+        <div id="myMenu">
+  <div class="myWrapper">
+    <nav>
+    <img src="images/FEMA-logo.svg" width="200" />
+    </nav>
+  </div>
+</div>
+        <div id="map"></div>
+        <div class="legend">
+            <div class="legend-title">Multivariate Legend</div>
+            <div><span style="background: #08589E fill-opacity: 0.3"></span></div>
+            <div><span style="background: #08589E fill-opacity: 0.5"></span></div>
+            <div><span style="background: #08589E fill-opacity: 0.7"></span></div>
+            <div><span style="background: #08589E fill-opacity: 0.9"></span></div>
+            <div><span style="background: #2B8CBE fill-opacity: 0.3"></span></div>
+            <div><span style="background: #2B8CBE fill-opacity: 0.5"></span></div>
+            <div><span style="background: #2B8CBE fill-opacity: 0.7"></span></div>
+            <div><span style="background:  #2B8CBE fill-opacity: 0.9"></span></div>
+            <div><span style="background: #4EB3D3 fill-opacity: 0.3"></span></div>
+            <div><span style="background: #4EB3D3 fill-opacity: 0.7"></span></div>
+            <div><span style="background: #4EB3D3 fill-opacity: 0.5"></span></div>
+            <div><span style="background: #4EB3D3 fill-opacity: 0.9"></span></div>
+            <div><span style="background: #7BCCC4 fill-opacity: 0.3"></span></div>
+            <div><span style="background: #7BCCC4 fill-opacity: 0.5"></span></div>
+            <div><span style="background: #7BCCC4 fill-opacity: 0.7"></span></div>
+            <div><span style="background: #7BCCC4 fill-opacity: 0.9"></span></div>
+        </div>-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    </body>
+</html>
